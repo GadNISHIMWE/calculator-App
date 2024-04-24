@@ -1,0 +1,101 @@
+:root{
+    --primary:hsl(350, 90%, 63%,0.65);
+    --secondary:hsl(230, 96%, 65%,0.35);
+}
+body{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    background: linear-gradient(125deg, var(--primary),var(--secondary)), url('image.png') no-repeat center center / cover;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    background: rgba(149, 151, 151, 0.986);
+    opacity: 0.9;
+    font-family: 'roboto',sans-serif;
+    border-radius: 0.5em;
+    padding: 0.5em 1.25em;
+    margin: auto;
+    max-width: 37.5em;
+    max-height: 37em;
+    border: 2px solid black;
+    box-shadow: 0 0 1.25em 0.5em rgba(28, 14, 14, 0.616) ;
+}
+.header{
+    width: 25em;
+    height:2em ;
+    margin: auto;
+}
+.header h1{
+    font-weight: 1000;
+    color: rgba(56, 55, 55, 0.906);
+
+}
+.cal-container{
+    width: 25em;
+    height: 6em;
+    background-color: rgb(97, 97, 97);
+    margin: auto;
+    margin-top: 2em;
+    border: 1px solid black;
+
+    
+
+}
+.answer-input{
+    width:20em ;
+    height: 2em;
+    margin: 1.5em 0 0 3em;
+    background-color: rgb(50, 45, 151);
+    border: 2px solid rgb(14, 17, 34);
+
+}
+.hour-part{
+    width: 4em;
+    height: 1.2em;
+    background-color: darkslategrey;
+    margin-top: 0.3em;
+    margin-left: 10em;
+
+}
+.input-btn{
+    width: 35em;
+    height: 2.5em;
+   margin: auto;
+}
+.operation-btn{
+    width: 35em;
+    height: 5em;
+    margin: auto;
+}
+input {
+width: 7em;
+height: 1.5em;
+background-color: black;
+margin-top: 1em;
+margin-left:6em ;
+size: 3px;
+color: white;
+font-weight: bold;
+}
+button{
+    width: 10em;
+    height: 2em;
+    margin-left: 6em;
+    border: 1px solid rgb(50, 24, 24);
+    border-radius: 4px;
+    font-weight: bold;
+}
+button:hover{
+    filter: brightness(0.9);
+    opacity: 0.8;
+    cursor: pointer;
+ }
+ button:active{
+    transform: translateY(6px);
+ }
+.addminusclear{
+    margin-top: 1em;
+    
+}
