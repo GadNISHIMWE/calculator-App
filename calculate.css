@@ -99,3 +99,12 @@ button:hover{
     margin-top: 1em;
     
 }
+
+
+
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
