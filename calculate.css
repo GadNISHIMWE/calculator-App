@@ -2,7 +2,7 @@
     --primary:hsl(350, 90%, 63%,0.65);
     --secondary:hsl(230, 96%, 65%,0.35);
 }
-body{
+#body-container{
     height: 100vh;
     width: 100%;
     display: flex;
